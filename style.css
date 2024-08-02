@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/backgroundImg.jpg);
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.apresentacao {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 10%;
+    align-items: center
+}
+
+.class_Titulo {
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.class_textoap {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.class_Welloword {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #5e17eb;
+}
+
+.imagemavatar img {
+    display: block;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: -600px;
+    left: 30cm;
+}
+
+.botoescontato img {
+    align-items: center;
+    position: relative;
+    top: -700px;
+    left: 10cm;
+    gap: 20px;
+    width: 50px;
+    border-radius: 50%;
+}
